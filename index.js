@@ -44,7 +44,7 @@ onValue(shoppingListInDB, function (snapshot) {
     }
   } else {
     shoppingListEl.innerHTML = `<div class="sad-cat-container">
-                                      <img src="./assets/cat2.avif">
+                                      <img src="./assets/sad-cat.avif">
                                       <h3>No item here ...</h3>
                                 </div>`;
   }
